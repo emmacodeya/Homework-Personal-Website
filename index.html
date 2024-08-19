@@ -23,6 +23,8 @@
         <div class="container d-flex align-items-center">
         <img class="me-6" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/people.png?raw=true" alt="banner" />
         <div>
+            <div data-aos="flip-right" data-aos-delay="500" data-aos-duration="2000">
+
         <h1 class="h2">
             Hi<br>
             I’m a front-end developer
@@ -31,18 +33,25 @@
         <div class="d-flex justify-content-end">
             <a href="#" class="btn btn-light">contact me<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward.png?raw=true" alt=""/></a>
           </div>
+        </div>
     </div>
       </div>
     </div>
    </div>
    <div class="info">
     <div class="container d-flex">
-        <div class="info-content">
+        <div class="overflow-hidden">
+        <div data-aos="fade-right"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine">
+        <div class="info-content" >
         <h2 class="h2 mb-9" >Introduction</h2>
         <p class="mb-8">Hi, I'm William Lee, a Front-End<br> Developer with a passion for<br> building beautiful and responsive<br> websites that provide an optimal<br> user experience.</p>
         <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true" alt="">
         <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true" alt="">
         <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true" alt="">
+    </div>
+    </div>
     </div>
         <ul class="d-flex">
         <li class="me-6"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle.png?raw=true" alt=""></li>
@@ -52,7 +61,11 @@
     </div>
    </div>
    <div class="about">
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="container d-flex justify-content-between align-items-center" >
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000"
+        data-aos-delay="600">
     <ol class="about-list d-flex flex-warp justify-content-between">
         <li class="mb-6"><p>01</p>
             <h3>Attention to Detail</h3>
@@ -67,18 +80,28 @@
             <h3>Team Player</h3>
             <p>Collaborates and shares ideas.</p></li>
     </ol>
+</div> 
+
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"
+     data-aos-delay="600">
+
     <div class="about-text">
         <h2 class="h2 mb-9">About Me</h2>
         <p>With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
     </div>
    </div>
 </div>
+</div>
 <div class="contact">
     <div class="container d-flex justify-content-between align-items-center">
+        <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="3000">
         <div class="contact-text d-flex">
         <h2 class="h2">CONTACT ME</h2>
         <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/trending_flat_black_24dp%201.png?raw=true" alt="箭頭">
          </div>
+        </div>
         <ul class="d-flex">
         <li class="social-link me-5"><a class="d-block" href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/discord.png?raw=true" alt="discord"></a></li>
         <li class="social-link me-5">
@@ -91,6 +114,8 @@
 <div class="project">
 <div class="container">
 <h2 class="h2 project-title mb-4">My Projects</h2>
+
+
 <div class="d-flex align-items-flex-start">
     
     <img class="me-6" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2010.png?raw=true" alt="圖片" />
@@ -103,12 +128,14 @@
     <a class="btn btn-dark" href="#">SEE MORE<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward-white.png?raw=true" alt="箭頭" /></a>
     </div>
     </div>
+    <div data-aos="fade-up"
+    data-aos-duration="3000">
 
     <div class="d-flex ">
     <img class="me-6" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2014.png?raw=true" alt="圖片" />
     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2029.png?raw=true" alt="圖片" />
     </div>
-   
+</div>
 </div>
 </div>
 </div>
@@ -118,5 +145,12 @@
     <p>all rights reserved @hexschool2023</p>
    </div>
 </footer>
+
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
 </body>
 </html>
